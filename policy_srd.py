@@ -61,7 +61,7 @@ for i, section in tqdm(enumerate(sections, start=1), total=len(sections), leave=
         },
         {
             "role": "user",
-            "content": f"Actualmente estás redactando una política de ciberseguridad para la continuidad de negocio. Escribe la narrativa, contexto y detalles para la siguiente sección (y solo esta sección): {section}. Usa tantos detalles y explicaciones como sea posible. No escribas nada que deba ir en otra sección de la política."
+            "content": f"Actualmente estás redactando una política de ciberseguridad. Escribe la narrativa, contexto y detalles para la siguiente sección (y solo esta sección): {section}. Usa tantos detalles y explicaciones como sea posible. No escribas nada que deba ir en otra sección de la política."
         }
     ]
 
